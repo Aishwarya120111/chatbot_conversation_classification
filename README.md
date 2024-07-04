@@ -9,6 +9,10 @@ This Streamlit application allows users to upload an Excel file containing chatb
 - Display the classified queries.
 - Download the results as an Excel file.
 
+## Application
+
+<img src="src/bertmodel.gif" width="1000"/>
+
 ## Installation
 
 1. Clone the repository:
