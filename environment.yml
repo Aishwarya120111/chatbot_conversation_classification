@@ -1,0 +1,16 @@
+name: bert_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - scikit-learn
+  - pip
+  - pip:
+      - transformers
+      - torch
+      - streamlit
+      - xlsxwriter
+      - openpyxl
+      - jupyter
