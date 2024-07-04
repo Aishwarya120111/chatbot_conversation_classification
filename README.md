@@ -31,6 +31,23 @@ conda activate venv/
 pip install -r requirements.txt
 ```
 
+## Running the Model
+
+1. Navigate to project directory
+
+```sh
+cd src
+```
+
+2. Open the `bertmodel.ipynb` notebook in your preferred Jupyter environment (e.g., Jupyter Notebook, JupyterLab, or VSCode).
+3. Setup the environment to run the notebook
+```sh
+conda env create -f environment.yml
+conda activate bert_env
+```
+4. Execute all the cells in the `bertmodel.ipynb` notebook to train the model and save the training results. Note that due to the large size of the model files, they are not included in the repository. This step will generate and save the required model files.
+5. After the notebook has finished executing and the model is saved, you can proceed to run the Streamlit application.
+
 ## Running Application
 
 1. Navigate to project directory
